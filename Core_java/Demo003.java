@@ -1,6 +1,6 @@
 package Core_java;
 
-public class Demo003 {
+public class Demo003{
     public static void main(String[] args) {
         int num1, num2, num3;
         num1 = 50;
