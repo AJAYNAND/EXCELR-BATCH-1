@@ -2,7 +2,7 @@ package Core_java;
 
 import java.util.Scanner;
 
-public class Demo013 {
+public class Demo013{
     public static void main(String[] args) {
 
         @SuppressWarnings("resource")
