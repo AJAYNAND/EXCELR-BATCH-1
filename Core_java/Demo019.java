@@ -1,33 +1,18 @@
 package Core_java;
 
-class demo20 {
-
+public class Demo019{
     public static void main(String[] args) {
-        int numberOfTerms = 10;
-        int[] fibonacciTerms = getFibonacciSequence(numberOfTerms);
+        int num1 = 1;
+        int num2 = 2;
+        int sum = 0;
 
-        for (int term : fibonacciTerms) {
-            System.out.print(term + " ");
-        }
-    }
+        System.out.print("Fibonacci Sequence: " + num1 + ", " + num2);
 
-    public static int[] getFibonacciSequence(int n) {
-        if (n <= 0) {
-            throw new IllegalArgumentException("Number of terms must be greater than zero.");
+        for (int i = 3; i <= 10; i++) {
+            sum = num1 + num2;
+            num1 = num2;
+            num2 = sum;
+            System.out.print(", " + sum);
         }
-
-        int[] fibonacci = new int[n];
-        if (n >= 1) {
-            fibonacci[0] = 0;
-        }
-        if (n >= 2) {
-            fibonacci[1] = 1;
-        }
-
-        for (int i = 2; i < n; i++) {
-            fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-        }
-
-        return fibonacci;
     }
 }
