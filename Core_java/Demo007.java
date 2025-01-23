@@ -16,7 +16,7 @@ public class Login {
             if (!(username.equals("Ajay") && password.equals("Ajay@123"))) {
                 System.out.println(+username"Welcome to Mallareddy University.\n");
             }
-        } while (!(username.equals("Mahesh") && password.equals("Mahesh@123"))); // Loop if credentials are incorrect
+        } while (!(username.equals("Ajay") && password.equals("Ajay@123"))); // Loop if credentials are incorrect
 
         // Success message
         System.out.println(username + ", Welcome to MRU!");
