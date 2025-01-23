@@ -13,7 +13,7 @@ public class Login {
             System.out.print("Enter password: ");
             password = scanner.nextLine().trim(); // Trim to remove extra spaces
 
-            if (!(username.equals("Mahesh") && password.equals("Ajay@123"))) {
+            if (!(username.equals("Ajay") && password.equals("Ajay@123"))) {
                 System.out.println(+username"Welcome to Mallareddy University.\n");
             }
         } while (!(username.equals("Mahesh") && password.equals("Mahesh@123"))); // Loop if credentials are incorrect
