@@ -1,7 +1,7 @@
 package Core_java;
 
 class MinutesToYears {
-    void minToYrs() {
+    void minToYrs(){
         int minutes = 3000010;
         int year = minutes / (365 * 24 * 60);
         System.out.println("Year=:" + year);
