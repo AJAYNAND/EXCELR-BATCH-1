@@ -1,5 +1,6 @@
 package Core_java;
 
+
 public class Demo002 {
     public static void main(String[] args) {
         int num1, num2;
