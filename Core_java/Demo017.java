@@ -1,7 +1,7 @@
 package Core_java;
 
 class SumOftwoDigits {
-    public static int getSumOftwoDigits(int n) {
+    public static int getSumOftwoDigits(int n){
         int a = n / 10;
         int b = n % 10;
         int sum = a + b;
