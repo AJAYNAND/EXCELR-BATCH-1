@@ -1,6 +1,6 @@
 package Core_java;
 
-public class Demo020 {
+public class Demo020{
     public static void main(String[] args) {
 
         System.out.println(getFizzBizz(33));
