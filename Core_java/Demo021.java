@@ -2,7 +2,7 @@ package Core_java;
 
 import java.util.Scanner;
 
-public class Demo021 {
+public class Demo021{
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter your monthly gross salary: ");
