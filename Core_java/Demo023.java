@@ -1,6 +1,6 @@
 package Core_java;
 
-public class Demo023 {
+public class Demo023{
     public static void main(String[] args) {
         System.out.println(isPalindrome(232));
         System.out.println(isPalindrome(345));
