@@ -5,7 +5,7 @@ package Core_java;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-class LinkedHashSetDemo {
+class LinkedHashSetDemo{
     void linkedHashsetMethod() {
         LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
         lhs.add(20);
