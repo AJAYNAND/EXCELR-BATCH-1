@@ -3,7 +3,7 @@ package Core_java;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Demo030 {
+public class Demo030{
     void arrayListMethod() {
         ArrayList<Integer> arraylist1 = new ArrayList<>();
         arraylist1.add(100);
