@@ -3,7 +3,7 @@ package Core_java;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Demo027 {
+public class Demo027{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
