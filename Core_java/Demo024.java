@@ -2,7 +2,7 @@ package Core_java;
 
 import java.util.ArrayList;
 
-class FriendList {
+class FriendList{
     ArrayList<String[]> list = new ArrayList<>();
 
     public FriendList() {
