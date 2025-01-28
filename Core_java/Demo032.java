@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 import java.util.HashSet;
 
-class HashSetDemo2 {
+class HashSetDemo2{
     // HashSet does not allow duplicates and does not guarantee the order in which
     // elements are added.
     void HashsetMethod() {
