@@ -1,6 +1,6 @@
 package Core_java;
 
-public class Demo025 {
+public class Demo025{
     public static void main(String[] args) {
         String str = "Hello everyone Happy sankranthi";
 
