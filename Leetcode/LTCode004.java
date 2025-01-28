@@ -1,6 +1,6 @@
 package Leetcode;
 
-class ListNode {
+class ListNode{
     int val;
     ListNode next;
 
