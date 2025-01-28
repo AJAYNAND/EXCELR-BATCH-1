@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class LTCode003 {
+public class LTCode003{
     public int myAtoi(String s) {
         int index = 0;
         int n = s.length();
