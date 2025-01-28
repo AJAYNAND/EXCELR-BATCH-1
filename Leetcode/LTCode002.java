@@ -1,6 +1,6 @@
 package Leetcode;
 
-class Solution2 {
+class Solution2{
     public int reverse(int x) {
         int reversed = 0;
         while (x != 0) {
